@@ -1,0 +1,31 @@
+# 核心
+pymupdf>=1.24.0
+numpy>=1.26.0
+# sentence-transformers>=2.7.0
+
+# 解析器
+# docling>=2.0.0
+# mineru>=1.0.0
+pypdfium2>=4.30.0
+Pillow>=10.0.0
+
+# Surya OCR（可选，重量级）
+# surya-ocr>=0.6.0
+
+# ========== Intel Mac 装不上，跳过 ==========
+# docling>=2.0.0           # 依赖 PyTorch 2.2.2+，Intel Mac 无 wheel
+# mineru>=1.0.0            # 依赖 docling
+# sentence-transformers>=2.7.0  # 依赖 torch，Intel Mac 大概率失败
+# surya-ocr>=0.6.0         # 需要 GPU
+
+# 向量库
+pymilvus>=2.4.0
+rank-bm25>=0.2.2
+
+# RAG 生成（可选）
+# transformers>=4.40.0
+# torch>=2.2.0
+
+# 工具
+python-dotenv>=1.0.0
+nougat-ocr
